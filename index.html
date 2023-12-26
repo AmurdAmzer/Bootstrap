@@ -14,8 +14,13 @@
         <div class="container">
             <a href="#" class="navbar-brand">ADAMS PLACE</a>
 
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
+// we create a button to give the nav items a hamburger display.
+            <button class="navbar-toggler" type="buttom" data-bs-toggle="collapse" data-bs-target="#navmenu">
+               <span class="navbar-toggler icon"></span> 
+            </button>
+
+            <div class="collapse navbar-collapse" id="#navmenu">
+                <ul class="navbar-nav ms-auto"> // ms auto pushes the nav items to the right and automatically space them.
                     <li class="nav-item">
                         <a href="#learn" class="nav-link">What You'll Learn</a>
                     </li>
