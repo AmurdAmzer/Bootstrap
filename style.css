@@ -1,0 +1,9 @@
+/* the "768px" represents medium screen, hence the width will be 50% of its original size whenever the screen is medium and above*/
+@media (min-width: 768px){
+    ,newsletter-input {
+        width: 50%
+    }
+
+}
+
+
